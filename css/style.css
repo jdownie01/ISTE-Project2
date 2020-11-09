@@ -7,19 +7,27 @@ body {
   height: 100vh;
 }
 @media (max-width: 300px) {
-    .ContentHome { font-size: 70%; }
+    .ContentHome { font-size: 270%; }
+    .ContentRight { font-size: 270%; }
+    .ContentLeft { font-size: 270%; }
 }
 
 @media (min-width: 500px) {
-    .ContentHome { font-size: 80%; }
+    .ContentHome { font-size: 170%; }
+    .ContentLeft { font-size: 170%; }
+    .ContentLeft { font-size: 170%; }
 }
 
 @media (min-width: 700px) {
-    .ContentHome { font-size: 120%; }
+    .ContentHome { font-size: 100%; }
+    .ContentRight { font-size: 100%; }
+    .ContentLeft { font-size: 100%; }
 }
 
 @media (min-width: 1200px) {
-    .ContentHome { font-size: 200%; }
+    .ContentHome { font-size: 70%; }
+    .ContentRight { font-size: 70%; }
+    .ContentLeft { font-size: 70%; }
 }
 .navbar {
   margin-left: 15px;
